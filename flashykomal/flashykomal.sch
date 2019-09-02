@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2487,7 +2487,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="10.16" y="167.64" size="1.778" layer="91">10-100k</text>
 <text x="5.08" y="147.32" size="1.778" layer="91">Separate analog ground plane</text>
 <text x="129.54" y="160.02" size="1.778" layer="91">20 Hz RC filter on switch</text>
-<text x="15.24" y="78.74" size="1.778" layer="91">DC bias and Over/undervoltage protection for ADC</text>
+<text x="15.24" y="78.74" size="1.778" layer="91">DC bias and amplifier for mic-&gt;ADC</text>
 <text x="129.54" y="137.16" size="1.778" layer="91">AVCC filtering</text>
 <text x="12.7" y="43.18" size="1.778" layer="91">MicB</text>
 <text x="17.78" y="22.86" size="1.778" layer="91">Unused</text>

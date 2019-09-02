@@ -929,7 +929,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-12083" x="40.64" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="40.64" y="33.528" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U1" library="SparkFun-IC-Amplifiers" package="DIP08" value="LM358" x="40.64" y="44.45" smashed="yes">
+<element name="IC2" library="SparkFun-IC-Amplifiers" package="DIP08" value="LM358" x="40.64" y="44.45" smashed="yes">
 <attribute name="NAME" x="34.925" y="44.45" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-09172" x="40.64" y="44.45" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.99" y="44.45" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -986,7 +986,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.5062" y="5.8928" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="11.8618" y="7.3152" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="U2" library="atmel-samd" package="SOT223" value="LM2397" x="11.43" y="52.07" smashed="yes">
+<element name="IC3" library="atmel-samd" package="SOT223" value="LM2397" x="11.43" y="52.07" smashed="yes">
 <attribute name="NAME" x="8.89" y="56.388" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="8.636" y="46.228" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -1012,12 +1012,12 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R7" pad="1"/>
-<contactref element="U1" pad="4"/>
+<contactref element="IC2" pad="4"/>
 <contactref element="JP2" pad="2"/>
 <contactref element="JP2" pad="3"/>
 <contactref element="JP3" pad="2"/>
-<contactref element="U2" pad="2"/>
-<contactref element="U2" pad="4"/>
+<contactref element="IC3" pad="2"/>
+<contactref element="IC3" pad="4"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
 <wire x1="5.08" y1="46.14" x2="10.58" y2="46.14" width="0.254" layer="1"/>
@@ -1069,9 +1069,9 @@ design rules under a new name.</description>
 <contactref element="FB1" pad="1"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="U1" pad="8"/>
+<contactref element="IC2" pad="8"/>
 <contactref element="JP3" pad="4"/>
-<contactref element="U2" pad="3"/>
+<contactref element="IC3" pad="3"/>
 <contactref element="C7" pad="1"/>
 <wire x1="13.7414" y1="48.9204" x2="14.3818" y2="48.28" width="0.254" layer="1"/>
 <wire x1="14.3818" y1="48.28" x2="19.05" y2="48.28" width="0.254" layer="1"/>
@@ -1199,7 +1199,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ADC0">
 <contactref element="IC1" pad="23"/>
-<contactref element="U1" pad="1"/>
+<contactref element="IC2" pad="1"/>
 <contactref element="R8" pad="2"/>
 <wire x1="36.83" y1="40.64" x2="37.25" y2="40.22" width="0.254" layer="1"/>
 <wire x1="37.25" y1="40.22" x2="37.25" y2="36.83" width="0.254" layer="1"/>
@@ -1439,7 +1439,7 @@ design rules under a new name.</description>
 <signal name="NONINV">
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="2"/>
-<contactref element="U1" pad="3"/>
+<contactref element="IC2" pad="3"/>
 <contactref element="R8" pad="1"/>
 <wire x1="43.6" y1="34.29" x2="41.49" y2="34.29" width="0.254" layer="1"/>
 <wire x1="41.49" y1="34.29" x2="41.49" y2="35.98" width="0.254" layer="1"/>
@@ -1450,7 +1450,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="INV">
 <contactref element="C5" pad="2"/>
-<contactref element="U1" pad="2"/>
+<contactref element="IC2" pad="2"/>
 <wire x1="43.6" y1="36.83" x2="43.6" y2="38.95" width="0.254" layer="1"/>
 <wire x1="42.799" y1="42.291" x2="40.513" y2="42.291" width="0.254" layer="1"/>
 <wire x1="40.513" y1="42.291" x2="39.37" y2="41.148" width="0.254" layer="1"/>
@@ -1490,7 +1490,7 @@ design rules under a new name.</description>
 <wire x1="8.47" y1="39.37" x2="12.7" y2="39.37" width="0.254" layer="1"/>
 </signal>
 <signal name="VIN">
-<contactref element="U2" pad="1"/>
+<contactref element="IC3" pad="1"/>
 <contactref element="C6" pad="1"/>
 <wire x1="5.08" y1="47.84" x2="6.1604" y2="48.9204" width="0.254" layer="1"/>
 <wire x1="6.1604" y1="48.9204" x2="7.62" y2="48.9204" width="0.254" layer="1"/>
